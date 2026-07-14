@@ -1,12 +1,14 @@
-import {Image, View} from 'react-native';
+import { View } from 'react-native';
+import Logo from '../../assets/images/logo.svg';
+
+
 
 export default function Header() {
   return (
     <View className="w-full h-[7rem] items-center justify-center bg-neutral-900">
-      <Image
-        source={require('../../assets/images/logo.png')}
-        className="h-full aspect-[1060/591]"
-      />
+      <View className="h-12 aspect-[754/140]">
+        <Logo width="100%" height="100%" />
+      </View>
     </View>
   );
 }

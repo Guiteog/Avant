@@ -1,17 +1,16 @@
-import {View } from "react-native"
-import Header from "../components/Header"
+import { View } from "react-native"
 import CardAux from "../components/CardAux"
+import Header from "../components/Header"
 
 
 export default function App() {
   return (
     <View className="flex-1 bg-neutral-900">{/* Pai */} 
+      {/* Header - Logo centralizado */}
       <Header />
-      <View className="flex-1 gap-3 mg">
-        <CardAux/>
-      </View>
-      <View className="flex-row justify-between items-center bg-neutral-800 h-20 p-4">
-
+      {/* Cards de retorno */}
+      <View className="flex-row flex-wrap flex-1 p-3">
+        < CardAux />
       </View>
     </View>
   )
