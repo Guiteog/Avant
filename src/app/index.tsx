@@ -9,8 +9,8 @@ export default function App() {
       {/* Header - Logo centralizado */}
       <Header />
       {/* Cards de retorno */}
-      <View className="flex-row flex-wrap flex-1 p-3">
-        < CardAux />
+      <View className="flex-row flex-1 p-3">
+        < CardAux nome="Aux Hub" color="red" nomeCanal="Canal Aux" />
       </View>
     </View>
   )
