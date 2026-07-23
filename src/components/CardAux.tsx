@@ -3,7 +3,7 @@ import { BlurView } from "expo-blur"
 import { Settings } from "lucide-react-native"
 import { Pencil } from "lucide-react-native"
 
-// Tipos
+// objetos
 type CardAuxProps = {
     nome: string,
     color: string,
