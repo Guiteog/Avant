@@ -13,7 +13,7 @@ type CardAuxProps = {
 export default function CardAux({ nome, color, nomeCanal }: CardAuxProps) {
     return (
         
-        <View className="w-full max-w-[320px] aspect-[1.5] p-1">
+        <View className="w-56 aspect-[1.5] rounded-2xl p-1">
             {/* Parte externa do card */}
             <View className="flex-1 rounded-2xl overflow-hidden p-2" style={{ boxShadow: '-6px 6px 24px -4px rgba(255,66,66,0.4)' }}>               
                 {/* 1 - Camada (Desfoque)*/}
