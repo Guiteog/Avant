@@ -3,7 +3,7 @@ import { BlurView } from "expo-blur"
 import { Settings } from "lucide-react-native"
 import { Pencil } from "lucide-react-native"
 
-// Tipos
+// objetos
 type CardAuxProps = {
     nome: string,
     color: string,
@@ -13,7 +13,7 @@ type CardAuxProps = {
 export default function CardAux({ nome, color, nomeCanal }: CardAuxProps) {
     return (
         
-        <View className="w-56 aspect-[1.5] rounded-2xl p-1">
+        <View className="w-[21.8rem] aspect-[1.5] rounded-2xl p-1">
             {/* Parte externa do card */}
             <View className="flex-1 rounded-2xl overflow-hidden p-2" style={{ boxShadow: '-6px 6px 24px -4px rgba(255,66,66,0.4)' }}>               
                 {/* 1 - Camada (Desfoque)*/}
@@ -21,7 +21,7 @@ export default function CardAux({ nome, color, nomeCanal }: CardAuxProps) {
                 <BlurView intensity={80} tint="dark" className="absolute inset-0" />
 
                 {/* 2 - Camada (Conteúdo Principal) */}
-                <View className="flex-1 pl-5 pr-2 py-2">
+                <View className="flex-1 pl-5 pr-2 pt-2 pb-5">
 
                     {/* Config */}
                     <View className="flex-[1] flex-row  ">
