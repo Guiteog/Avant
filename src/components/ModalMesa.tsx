@@ -1,0 +1,1 @@
+import { Modal, View, Text, Pressable, TextInput, ScrollView } from 'react-native';
